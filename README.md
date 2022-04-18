@@ -42,11 +42,11 @@ To get a local copy up and running follow these simple steps:
 
 - GitHub: [@Bria222](https://github.com/Bria222)
 
-## Authors 1
+## Authors 2
 
 👤 **Abiodan**
 
-- GitHub: [@](https://github.com/)
+- GitHub: [@Babiodunraheem](https://github.com/abiodunraheem)
 
 
 
