@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lobster', cursive;
-  }
-  
-  :root {
-    --dark-green: #003300;
-    --pretty: #00ffff;
-    --main-black: #111;
-    --grey: #adad85;
-    --primary: #ec5242;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster", cursive;
+}
+
+:root {
+  --dark-green: #003300;
+  --pretty: #00ffff;
+  --main-black: #111;
+  --grey: #adad85;
+  --primary: #ec5242;
   --secondary: #272a31;
   --tertiary: #d3d3d3;
   --background-two: #f7f7f9;
@@ -19,9 +19,8 @@
   --bg-white: #fff;
   --color-white: #fff;
   --color-gradient: #ff45 #ffff;
+}
 
-  }
-  
 html,
 body {
   width: 100%;
@@ -35,108 +34,105 @@ body {
   line-height: 1.5rem;
   font-weight: normal;
 }
-  
-  h1 {
-    color: var(--primary);
-  }
 
-  h3 {
-      color: black;
-      font-size: 2rem;
-  }
+h1 {
+  color: var(--primary);
+}
 
-  .search {
-      margin-left: 220px;
-      width: 700px;
-      margin-top: 20px;
+h3 {
+  color: black;
+  font-size: 2rem;
+}
 
-  }
-  .container {
-    width: 70vw;
-    margin: 40px auto;
-    display: flex;
-    padding: 2rem 0;
-    min-height: 20rem;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(153, 153, 102, 0.6);
-    
-  }
-  
-  .books-title {
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  
-  .books {
-    width: 80%;
-    margin: 2rem auto;
-  }
-  
-  .single-book {
-    width: 80%;
-    height: 1.8rem;
-    font-size: 1.05rem;
-    margin: 1rem auto;
-    display: flex;
-    padding: 0 1rem;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid rgb(17, 17, 17, 0.3);
-  }
-  
-  .close {
-    cursor: pointer;
-    color: #f00;
-    font-weight: bold;
-  }
-  
-  .empty {
-    text-align: center;
-  }
-  
-  .error {
-    color: #f00;
-    margin: 12px 0;
-    font-weight: bold;
-    display: none;
-  }
-  
-  .add-section {
-    width: 80%;
-    font-size: 1.05rem;
-    margin: 1rem auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .underline {
-    height: 5px;
-    background-color: var(--primary);
-    width: 30%;
-    margin: 2rem auto 1rem auto;
-  }
-  
-  .input {
-    width: 70%;
-    padding: 8px;
-    margin: 10px 0;
-    border-radius: 24px;
-  }
-  
-  .btn-add {
-    background-color: green;
-    color: #fff;
-    border: 0;
-    padding: 12px;
-    width: 70%;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .btn-add:active {
-    transform: scale(0.98);
-  }
-  
+.search {
+  margin-left: 220px;
+  width: 700px;
+  margin-top: 20px;
+}
+.container {
+  width: 70vw;
+  margin: 40px auto;
+  display: flex;
+  padding: 2rem 0;
+  min-height: 20rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(153, 153, 102, 0.6);
+}
+
+.books-title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.books {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.single-book {
+  width: 80%;
+  height: 1.8rem;
+  font-size: 1.05rem;
+  margin: 1rem auto;
+  display: flex;
+  padding: 0 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(17, 17, 17, 0.3);
+}
+
+.close {
+  cursor: pointer;
+  color: #f00;
+  font-weight: bold;
+}
+
+.empty {
+  text-align: center;
+}
+
+.error {
+  color: #f00;
+  margin: 12px 0;
+  font-weight: bold;
+  display: none;
+}
+
+.add-section {
+  width: 80%;
+  font-size: 1.05rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.underline {
+  height: 5px;
+  background-color: var(--primary);
+  width: 30%;
+  margin: 2rem auto 1rem auto;
+}
+
+.input {
+  width: 70%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 24px;
+}
+
+.btn-add {
+  background-color: green;
+  color: #fff;
+  border: 0;
+  padding: 12px;
+  width: 70%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-add:active {
+  transform: scale(0.98);
+}
