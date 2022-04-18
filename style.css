@@ -1,4 +1,6 @@
+/* stylelint-disable color-hex-length */
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -49,6 +51,7 @@ h3 {
   width: 700px;
   margin-top: 20px;
 }
+
 .container {
   width: 70vw;
   margin: 40px auto;
