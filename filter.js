@@ -1,12 +1,10 @@
 //  get Dom elements
 const filter = document.getElementById('search');
 
-
 filter.addEventListener('keyup', filterItems);
-function filterItems(e){
+function filterItems(e) {
 // convert text to lowercase
-var text = e.target.value.toLowerCase();
-// Get lis
-
+  // eslint-disable-next-line no-unused-vars
+  const text = e.target.value.toLowerCase();
+  // Get lis
 }
-
