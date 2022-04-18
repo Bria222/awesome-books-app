@@ -2,12 +2,9 @@
 const addBtn = document.querySelector('#btn-add');
 const allBks = document.querySelector('#all-books');
 const title = document.getElementById('title');
-const author = document.getElementById('author')
+const author = document.getElementById('author');
 const error = document.querySelector('#error');
-
-
 let books = JSON.parse(localStorage.getItem('books'));
-
 const fetchData = () => {
   let result = '';
   if (localStorage.getItem('books') === null) {
@@ -37,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
   fetchData();
 });
 
-// store books 
+// store books
 function storeBksToLs(bks) {
   const dataToStore = JSON.stringify(bks);
   localStorage.setItem('books', dataToStore);
@@ -49,7 +46,7 @@ addBtn.addEventListener('click', () => {
   const bkTitle = title.value;
   const bkAuthor = author.value;
 
-  // display error by promise if the input value is empty 
+  // display error by promise if the input value is empty
   if (bkTitle === '' || bkAuthor === '') {
     error.style.display = 'block';
     error.textContent = 'fill all the fields please';
