@@ -6,7 +6,7 @@ In this project, we set up awesome books repository. our goal here was to build 
 
 ## :red_circle: Live Demo Link
 
-[view website](https:/)
+[view website](https://vigilant-pare-10c09b.netlify.app/)
 
 
 
