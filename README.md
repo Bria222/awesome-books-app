@@ -1,4 +1,10 @@
 # awesome-books-app
+# Desktop version
+![Screenshot (201)](https://user-images.githubusercontent.com/64264883/164335256-1f142f4d-1023-48d5-82b5-27fbbc968a09.png)
+
+# mobile version
+
+![Screenshot (202)](https://user-images.githubusercontent.com/64264883/164335479-8851e3d9-be0d-4111-8e74-ad1d3ec48faf.png)
 
 
 In this project, we set up awesome books repository. our goal here was to build a a book application with html javascript and css.
