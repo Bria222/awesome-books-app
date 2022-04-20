@@ -251,6 +251,21 @@ nav a:hover::before {
 
 /* responsive css */
 @media only screen and (max-width: 768px) {
+  header {
+    background: transparent;
+    height: 40%;
+  }
+
+  nav a {
+    color: white;
+    font-size: 1.5rem;
+    font-family: normal;
+  }
+
+  .ml2 {
+    color: white;
+  }
+
   .container {
     width: 70vw;
     margin: 40px auto;
@@ -282,5 +297,26 @@ nav a:hover::before {
     font-weight: bold;
     text-align: center;
     color: var(--color-white);
+  }
+
+  .footer p {
+    color: var(--pretty);
+    margin-right: 0.2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .contact-text {
+    text-align: center;
+    margin: 2rem;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  .contact-list {
+    text-align: center;
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 400;
   }
 }
