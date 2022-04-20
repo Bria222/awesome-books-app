@@ -6,35 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <title>Awesome Book application</title>
 </head>
-
 <body>
 
-    <div class="search">
-
-        <input type="text" id="search" class="input" placeholder="search books"><i
-            class="fa-solid fa-magnifying-glass fa-2x">search</i>
-
-    </div>
-    <div class="container">
-        <p><i class="fa-solid fa-book-open fa-4x"></i></p>
-        <h1 class="books-title">Awesome Books</h1>
-        <div class="books">
-            <div class="all-books" id="all-books">
-            </div>
-            <div class="add-section">
-                <div class="underline"></div>
-                <h1 class="text-primary">Add a new book </h1>
-                <input type="text" id="title" class="input" placeholder="Book title ....">
-                <input type="text" id='author' class="input" placeholder="Book author.....">
-                <p class="error" id="error"></p>
-                <button type="button" class="btn-add" id="btn-add">Add Book</button>
-            </div>
+    <header>
+        <div class="container-nav">
+          <h1 class="logo ml2">AWESOME BOOKS</h1>
+        
+          <nav>
+            <ul>
+              <li><a href="#" id="list">LIST</a></li>
+              <li><a href="#" id="add">ADD BOOK</a></li>
+              <li><a href="#" id="contact">CONTACT</a></li>
+              </ul>
+              
+          </nav>
+         
         </div>
-    </div>
-    <script src="main.js"></script>
-    <script src="filter.js"></script>
-</body>
+      </header>
 
+      <main>
+        <div class="container">
+            <div class="books" id="books">
+
+              <h1 class="books-title-1">Available Books</h1>
+              
+              <div class="all-books" id="all-books">
+                
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer class="footer">
+          <p>&copy;awesomebooks || @2022</p>
+         
+        </footer>
+          <script src="main.js"></script>
+</body>
 </html>
